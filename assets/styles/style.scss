@@ -1,31 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@500;600;800&family=Encode+Sans:wght@100;500;900&display=swap');
+
 $font-color: #FFF;
 $padding-section: 2rem;
 $border: 3px solid white;
-
-@font-face {
-    font-family: "One Night Sans Extended";
-    src: url(../fonts/OneNightSans-Extended.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "One Night Sans Extended Black";
-    src: url(../fonts/OneNightSans-ExtendedBlack.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "One Night Sans Thin";
-    src: url(../fonts/OneNightSans-Thin.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "One Night Sans Medium";
-    src: url(../fonts/OneNightSans-Medium.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "One Night Sans Black";
-    src: url(../fonts/OneNightSans-Black.ttf) format("truetype");
-}
 
 @-webkit-keyframes point {
     0% {
@@ -117,102 +94,125 @@ $border: 3px solid white;
 
 @keyframes vibrate-3 {
     0% {
-      -webkit-transform: translate(0);
-              transform: translate(0);
+        -webkit-transform: translate(0);
+        transform: translate(0);
     }
+
     2% {
-      -webkit-transform: translate(-2px, -2px);
-              transform: translate(-2px, -2px);
+        -webkit-transform: translate(-2px, -2px);
+        transform: translate(-2px, -2px);
     }
+
     4% {
-      -webkit-transform: translate(2px, -2px);
-              transform: translate(2px, -2px);
+        -webkit-transform: translate(2px, -2px);
+        transform: translate(2px, -2px);
     }
+
     6% {
-      -webkit-transform: translate(-2px, 2px);
-              transform: translate(-2px, 2px);
+        -webkit-transform: translate(-2px, 2px);
+        transform: translate(-2px, 2px);
     }
+
     8% {
-      -webkit-transform: translate(2px, 2px);
-              transform: translate(2px, 2px);
+        -webkit-transform: translate(2px, 2px);
+        transform: translate(2px, 2px);
     }
+
     10% {
-      -webkit-transform: translate(-2px, -2px);
-              transform: translate(-2px, -2px);
+        -webkit-transform: translate(-2px, -2px);
+        transform: translate(-2px, -2px);
     }
+
     12% {
-      -webkit-transform: translate(2px, -2px);
-              transform: translate(2px, -2px);
+        -webkit-transform: translate(2px, -2px);
+        transform: translate(2px, -2px);
     }
+
     14% {
-      -webkit-transform: translate(-2px, 2px);
-              transform: translate(-2px, 2px);
+        -webkit-transform: translate(-2px, 2px);
+        transform: translate(-2px, 2px);
     }
+
     16% {
-      -webkit-transform: translate(-2px, -2px);
-              transform: translate(-2px, -2px);
+        -webkit-transform: translate(-2px, -2px);
+        transform: translate(-2px, -2px);
     }
+
     18% {
-      -webkit-transform: translate(2px, -2px);
-              transform: translate(2px, -2px);
+        -webkit-transform: translate(2px, -2px);
+        transform: translate(2px, -2px);
     }
+
     20% {
         -webkit-transform: translate(-2px, -2px);
-                transform: translate(-2px, -2px);
-      }
-      22% {
+        transform: translate(-2px, -2px);
+    }
+
+    22% {
         -webkit-transform: translate(2px, -2px);
-                transform: translate(2px, -2px);
-      }
-      24% {
+        transform: translate(2px, -2px);
+    }
+
+    24% {
         -webkit-transform: translate(-2px, 2px);
-                transform: translate(-2px, 2px);
-      }
-      26% {
+        transform: translate(-2px, 2px);
+    }
+
+    26% {
         -webkit-transform: translate(2px, 2px);
-                transform: translate(2px, 2px);
-      }
-      28% {
+        transform: translate(2px, 2px);
+    }
+
+    28% {
         -webkit-transform: translate(-2px, -2px);
-                transform: translate(-2px, -2px);
-      }
-      30% {
+        transform: translate(-2px, -2px);
+    }
+
+    30% {
         -webkit-transform: translate(2px, -2px);
-                transform: translate(2px, -2px);
-      }
-      32% {
+        transform: translate(2px, -2px);
+    }
+
+    32% {
         -webkit-transform: translate(-2px, 2px);
-                transform: translate(-2px, 2px);
-      }
-      34% {
+        transform: translate(-2px, 2px);
+    }
+
+    34% {
         -webkit-transform: translate(2px, 2px);
-                transform: translate(2px, 2px);
-      }
-      36% {
+        transform: translate(2px, 2px);
+    }
+
+    36% {
         -webkit-transform: translate(-2px, -2px);
-                transform: translate(-2px, -2px);
-      }
-      38% {
+        transform: translate(-2px, -2px);
+    }
+
+    38% {
         -webkit-transform: translate(2px, -2px);
-                transform: translate(2px, -2px);
-      }
-      40% {
+        transform: translate(2px, -2px);
+    }
+
+    40% {
         -webkit-transform: translate(-2px, 2px);
-                transform: translate(-2px, 2px);
-      }
-      42% {
+        transform: translate(-2px, 2px);
+    }
+
+    42% {
         -webkit-transform: translate(2px, 2px);
-                transform: translate(2px, 2px);
-      }
-      44% {
+        transform: translate(2px, 2px);
+    }
+
+    44% {
         -webkit-transform: translate(0);
-                transform: translate(0);
-      }
+        transform: translate(0);
+    }
+
     100% {
         -webkit-transform: translate(0);
-                transform: translate(0);
-      }
-  }
+        transform: translate(0);
+    }
+}
 
 
 html,
@@ -234,13 +234,8 @@ body {
     font: inherit;
     vertical-align: baseline;
     box-sizing: border-box;
-
-    h1 {
-        margin-block: 0;
-    }
-
-    font-family: "One Night Sans Extended",
-    sans-serif;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-weight: 500;
     text-transform: uppercase;
     font-size: clamp(1rem, 0.963rem + 0.1852vw, 1.125rem);
     line-height: 1.2;
@@ -248,6 +243,10 @@ body {
     margin: auto;
     color: $font-color;
     width: 100%;
+
+    h1 {
+        margin-block: 0;
+    }
 
     & .es-section__top {
         background-image: url(../images/bg-1.png);
@@ -279,6 +278,7 @@ body {
             -webkit-animation: vibrate-3 0.5s linear infinite both;
             animation: vibrate-3 2s linear infinite both;
             animation-delay: 1s;
+
             @media (min-width: 768px) {
                 max-height: unset;
                 position: absolute;
@@ -330,7 +330,8 @@ body {
 
                 &--3 {
                     .es-slide__text {
-                        font-family: "One Night Sans Thin";
+                        font-family: 'Encode Sans', sans-serif;
+                        font-weight: 100;
                     }
 
                     @media (min-width: 768px) {
@@ -387,7 +388,7 @@ body {
                 text-align: center;
 
                 &--bold {
-                    font-family: "One Night Sans Extended Black";
+                    font-weight: 800;
                     display: block;
                 }
             }
@@ -396,10 +397,11 @@ body {
                 font-size: clamp(2rem, 1.7037rem + 1.4815vw, 3rem);
                 text-align: center;
                 margin-block: 1.5rem;
-                font-family: "One Night Sans Thin";
-
+                font-family: 'Encode Sans', sans-serif;
+                font-weight: 100;
                 &--bold {
-                    font-family: "One Night Sans Black";
+                    font-family: 'Encode Sans', sans-serif;
+                    font-weight: 900;
                 }
             }
 
@@ -434,7 +436,8 @@ body {
                 width: 3ch;
                 font-size: clamp(1.125rem, 1.0139rem + 0.5556vw, 1.5rem);
                 text-align: center;
-                font-family: "One Night Sans Medium";
+                font-family: 'Encode Sans', sans-serif;
+                font-weight: 500;
                 margin-block: 1rem;
             }
 
@@ -460,7 +463,7 @@ body {
     }
 
     & .es-section__bottom {
-        background-image: url(../images/bg-2.png);
+        background-image: url("../images/bg-2.png");
         background-repeat: no-repeat;
         background-size: 100% 100%;
         text-align: center;
@@ -485,7 +488,7 @@ body {
 
         &:after {
             content: "";
-            background-image: url(../images/hand.png);
+            background-image: url("../images/hand.png");
             background-repeat: no-repeat;
             background-size: contain;
             width: 100%;
@@ -567,12 +570,14 @@ body {
         }
 
         &__label {
-            font-family: "One Night Sans Thin";
+            font-family: 'Encode Sans', sans-serif;
+            font-weight: 100;
             font-size: clamp(1.125rem, 1.088rem + 0.1852vw, 1.25rem);
         }
 
         &__value {
-            font-family: "One Night Sans Black";
+            font-family: 'Encode Sans', sans-serif;
+            font-weight: 900;
             font-size: clamp(1.375rem, 1.1528rem + 1.1111vw, 2.125rem);
         }
     }
@@ -617,11 +622,12 @@ body {
         }
 
         &__text {
-            font-family: "One Night Sans Thin";
-
+            font-family: 'Encode Sans', sans-serif;
+            font-weight: 100;
             &--bold {
                 display: block;
-                font-family: "One Night Sans Extended Black";
+                font-family: 'Encode Sans Expanded', sans-serif;
+                font-weight: 800;
             }
         }
     }
